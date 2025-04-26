@@ -1,0 +1,132 @@
+<!DOCTYPE html><html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Médecine Nucléaire Sfax</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #f5f9fc;
+      color: #333;
+    }
+    header {
+      background: #0077b6;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 1.8rem;
+      font-weight: 600;
+    }
+    nav {
+      background: #023e8a;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .hero {
+      background: url('https://via.placeholder.com/1200x400?text=Medecine+Nucleaire+Sfax') no-repeat center/cover;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .card {
+      background: white;
+      margin-bottom: 20px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .btn {
+      background: #0077b6;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 10px;
+    }
+    footer {
+      background: #023e8a;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body><header>
+  Service de Médecine Nucléaire - Sfax
+</header>
+<nav>
+  <a href="#accueil">Accueil</a>
+  <a href="#services">Services</a>
+  <a href="#rdv">Réservation</a>
+  <a href="#formulaires">Formulaires</a>
+  <a href="#equipe">Equipe</a>
+  <a href="#contact">Contact</a>
+</nav><div class="hero" id="accueil">
+  Bienvenue
+</div><section id="services">
+  <h2>Nos Services</h2>
+  <div class="card">
+    <h3>Scintigraphie</h3>
+    <p>Examen d'imagerie médicale utilisant des isotopes radioactifs pour visualiser les organes internes.</p>
+  </div>
+  <div class="card">
+    <h3>TEP-TDM</h3>
+    <p>Technique combinant la tomographie par émission de positons (TEP) et la tomodensitométrie (TDM).</p>
+  </div>
+</section><section id="rdv">
+  <h2>Prendre Rendez-vous</h2>
+  <div class="card">
+    <form action="#" method="POST">
+      <input type="text" name="nom" placeholder="Votre nom" required><br><br>
+      <input type="text" name="prenom" placeholder="Votre prénom" required><br><br>
+      <input type="text" name="telephone" placeholder="Téléphone" required><br><br>
+      <select name="examen" required>
+        <option value="">Choisir un examen</option>
+        <option value="Scintigraphie">Scintigraphie</option>
+        <option value="TEP-TDM">TEP-TDM</option>
+      </select><br><br>
+      <button class="btn" type="submit">Envoyer</button>
+    </form>
+  </div>
+</section><section id="formulaires">
+  <h2>Formulaires</h2>
+  <div class="card">
+    <a class="btn" href="#">Demande de scintigraphie (PDF)</a><br><br>
+    <a class="btn" href="#">Demande de TEP-TDM (PDF)</a>
+  </div>
+</section><section id="equipe">
+  <h2>L'Équipe</h2>
+  <div class="card">
+    <p>Dr. A. Ben Salah - Médecin Nucléaire</p>
+    <p>M. H. Trabelsi - Technicien en Imagerie</p>
+  </div>
+</section><section id="contact">
+  <h2>Contact</h2>
+  <div class="card">
+    <p>Adresse : Hôpital Universitaire Sfax</p>
+    <p>Tél : +216 74 XXX XXX</p>
+    <p>Email : mednuc@chu-sfax.tn</p>
+  </div>
+</section><footer>
+  &copy; 2025 Service de Médecine Nucléaire Sfax. Tous droits réservés.
+</footer></body>
+</html>
